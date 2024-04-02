@@ -4,6 +4,6 @@
 
 ### How to start
 ```
-npm install  
+npm ci  
 npm start
 ```
