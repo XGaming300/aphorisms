@@ -1,0 +1,167 @@
+:root {
+    --background: #0C2D57;
+    --text: #FC6736;
+}
+
+.contentPage {
+    margin-top: 30px;
+    width: 100%;   
+    font-family: "Urbanist", sans-serif;
+
+}
+
+.contentPage .title {
+    width: 95%;
+    margin-bottom: 30px;
+}
+
+.contentPage .title h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.contentPage .title div {
+    width: 95%;
+    background-color: var(--text);
+    height: 5px;
+    border-radius: 25px;
+}
+
+.contentPage .col {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.contentPage .itemsHolder {
+    width: 95%;
+}
+
+.contentPage .itemsHolder .item {
+    width: 95%;
+    color: white; 
+    border: 5px solid white;
+    height: 200px;
+    display: flex;
+    border-radius: 25px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+
+.contentPage .likeButtonHolder {
+    width: 90px;
+    height: 90px;
+    margin-right: 40px;
+
+}
+
+.contentPage .likeButtonHolder button {
+    font-size: 70px;
+    margin-top: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+.contentPage .item h2 {
+    font-size: 25px;
+    margin-left: 40px;
+    width: 80%;
+    display: flex;
+}
+
+.contentPage .item h3 {
+    font-size: 25px;
+    color: #FC6736;
+    margin-left: 10px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+.fill {
+    color: #FC6736;
+    background-color: #FC6736 ;
+}
+
+.noItems {
+    font-size: 70px;
+    margin-top: 150px;
+    color: #FC6736;
+}
+
+.noItemsButton {
+    font-size: 50px;
+    margin-top: 50px;
+    color: #0C2D57;
+    padding: 20px;
+    background-color: #FC6736;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+
+    .contentPage .title {
+        width: 89%;
+    }
+    
+    .contentPage .title h2 {
+        font-size: 30px;
+    }
+  
+    
+    .contentPage .itemsHolder .item h2 {
+        font-size: 13px;
+        margin-left: 20px;
+        width: 80%;
+        display: flex;
+    }
+    
+    .contentPage .itemsHolder .item h3 {
+        font-size: 13px;
+        color: #FC6736;
+        margin-left: 20px;
+    }
+
+    
+    .contentPage .itemsHolder .item {
+        width: 90%;
+        border: 1px solid white;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-left: 10px;
+    }
+
+    .contentPage .likeButtonHolder button {
+        font-size: 40px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .noItems {
+        font-size: 30px;
+        margin-top: 100px;
+        color: #FC6736;
+    }
+    
+    .noItemsButton {
+        font-size: 20px;
+        margin-top: 20px;
+        color: #0C2D57;
+        padding: 20px;
+        background-color: #FC6736;
+    }
+
+  }

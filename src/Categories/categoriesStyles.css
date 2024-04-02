@@ -1,0 +1,74 @@
+:root {
+    --background: #0C2D57;
+    --text: #FC6736;
+}
+
+.categoriesPage {
+    background-color: var(--background);
+    /* height: 1200px; */
+    padding-top: 30px;
+    font-family: "Urbanist", sans-serif;
+    padding-bottom: 42px;
+
+}
+
+.holder {
+    width: 380px;
+    height: 120px;
+    border: 5px solid white;
+    background-color: #FC6736;
+    display: flex;
+    margin: 2%;
+    border-radius: 25px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none !important;
+    margin-bottom: 20px;
+}
+
+
+.holder h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    height: 30%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none !important;
+    color: white;
+    height: 100%;
+    font-family: "Urbanist", sans-serif;
+
+
+}
+
+.categoryHolder {
+    margin-top: -40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start
+}
+
+@media only screen and (max-width: 500px) {
+    .holder {
+        width: 45%;
+        height: 60px;
+        border: 2px solid white;
+    }
+
+    .holder h2 {
+        font-size: 17px;
+    }
+
+    .categoryHolder {
+        margin-top: -20px;
+        
+    
+    }
+
+}
